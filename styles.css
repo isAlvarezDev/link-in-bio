@@ -30,7 +30,7 @@ body {
     background-image: url("img/profile-picture.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px 50%;
+    background-position: 0px 45%;
     filter: blur(5px);
     width: 100dvw;
     height: 29dvh;
@@ -43,8 +43,10 @@ body {
 
 .wrapper {
     max-width: fit-content;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .bio-link {
